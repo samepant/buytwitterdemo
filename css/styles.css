@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');/*
+YUI 3.18.1 (build f7e7bcb)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-feature-settings:normal;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}/* Use local import of yui for https */x2 {	
+}.cf:after, .cf:before {
+  content: " ";
+  display: table;
+}.cf:after {
+  clear: both;
+}*, *:before, *:after {
+  box-sizing: border-box;
+}body {
+	font-family: Open Sans, sans-serif;
+	font-weight: 300;
+	color:#000000;
+	font-size: 1rem;
+}html {
+	font-size: 100%;
+}h1, h2, h3, h4, h5 {
+	font-family: 'Bree Serif';
+	font-weight: bold;
+	text-align: center;
+}h1 {
+	font-size: 5rem
+}@media (min-width: 850px) {h1{font-size:10rem}
+	}h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 100%;
+	text-align: left;
+	margin-bottom: 2rem;
+	font-family: Open Sans, sans-serif
+}h2 strong{font-weight:bolder;text-decoration:underline}a {
+	color:#D3001D;
+	text-decoration: none
+}a:visited{color:#D3001D}a:hover{text-decoration:underline}p {
+	margin-bottom: 1em;
+}strong {
+	font-weight: bolder;
+	text-decoration: underline;
+}ul {
+   list-style-type:disc;
+   list-style-type: initial;
+   list-style-position: outside;
+	 margin-left: 2rem;
+	 margin-bottom: 1rem;
+	 margin-top: 1rem;
+}li {
+	 display: list-item;
+}section .wrapper {
+  padding: 170px 0 50px
+}@media (min-width: 850px) {section .wrapper{padding:170px 100px 50px}
+  }.width-wrap {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1400px;
+}.half-large-full-small {
+  padding: 0 50px;
+  margin-bottom: 100px;
+  width: 100%
+}@media (min-width: 850px) {.half-large-full-small{margin-bottom:0;width:50%;float:left}
+  }.slant-bg {
+  position: relative;
+  margin-bottom: 80px
+}.slant-bg.last-slant:before{height:100%}.slant-bg:before {
+  border-top: 1px solid #ecc6ff;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 160%;
+  top: 0;
+  background: linear-gradient(to bottom, rgba(253, 250, 255, 1) 0%, rgba(254, 252, 255, 1) 43%, rgba(255, 255, 255, 1) 100%);
+}.l2r:before {
+  transform: skewY(12deg);
+}.r2l:before {
+  transform: skewY(-12deg);
+}.slant-bg .wrapper {
+  padding: 200px 0 50px
+}@media (min-width: 850px) {.slant-bg .wrapper{padding:200px 100px 50px}
+  }.first-slant:before {
+  top: -29%;
+}html, body {
+	height: 100%;
+	margin: 0;
+}body.hero {
+}header.hero {
+	position: relative;
+	color:#000000;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}header .header-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: skewY(-12deg);
+	transform-origin: 0;
+	background: rgba(104, 14, 143, 1);
+	background: linear-gradient(135deg, rgba(104, 14, 143, 1) 0%, rgba(151, 70, 191, 1) 50%, rgba(167, 112, 219, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#680e8f', endColorstr='#a770db', GradientType=1 );
+}#promo {
+	padding: 300px 0;
+	position: relative;
+	font-size: 1.5rem;
+	color: white;
+	margin: 0 40px
+}@media (min-width: 850px) {#promo{font-size:2rem;width:50%;margin-left:100px}
+	}a.skip .jump-down {
+	font-size: 1.5rem;
+	padding: 10px 5px;
+	min-width: 100px;
+}.stage {
+  z-index: 1;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  width: 400px;
+  height: 528px;
+  -ms-perspective: 1200px;
+  -o-perspective: 1200px;
+  perspective: 1200px;
+  -ms-perspective-origin: 50% 50%;
+  -o-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+}.stage:before {
+	display: block;
+	content:"";
+	width: 70%;
+	height: 100%;
+}.stage > .egg {
+	position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}.stage img {
+	position: absolute;
+  top: -62%;
+  right: -4%;
+  width: 301%;
+}.egg {
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+  height: 100%;
+  width: 100%;
+  border: 2px solid #a057ce;
+  background: radial-gradient(circle at 100px 100px, #ffffff, #e2c6fb);
+}.shadow {
+  position: absolute;
+  bottom: -100px;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, .4), rgba(0, 0, 0, .1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+  z-index: -1;
+}.egg svg {
+	position: absolute;
+	top: 17%;
+	left: 14.7%;
+}footer {
+	color:rgba(104, 14, 143, 1);
+  border-top: 1px solid #ecc6ff;
+	background: linear-gradient(to bottom, rgba(253, 250, 255, 1) 0%, rgba(254, 252, 255, 1) 43%, rgba(255, 255, 255, 1) 100%);
+	margin-top: 8rem;
+	padding: 1rem 2% 0.5rem
+}footer a{color:rgba(104, 14, 143, 1);text-decoration:underline}footer a:visited{color:rgba(104, 14, 143, 1)}footer p{margin-bottom:10px}a.button {
+	cursor: pointer;
+	text-align: center;
+	display: block;
+	border:2px solid rgba(104, 14, 143, 0.85);
+	border-radius: 0.25em;
+	color:rgba(104, 14, 143, 1);
+	text-decoration:none;
+	padding: 0.5em;
+	font-weight: bold;
+	font-size: 1.25rem;
+	width: 85%;
+	margin: 0.5rem auto;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08) !important;
+	transition: all 0.2s ease
+}a.button:hover{transform:translateY(-1px)}@media (min-width: 850px) {a.button{margin:0.5rem 0 2rem;width:45%;display:inline-block;font-size:1.5rem}a.button:first-child{margin-right:2%}
+	}a.button.header-button{border:2px solid white;color:white;font-weight:300}#share .wrapper {
+  text-align: center;
+}a.link__bumper-sticker {
+	border:2px solid #D3001D;
+	display: block;
+		width: 100%;
+		max-width: 512px;
+}.img__bumper-sticker {
+		width: 100%;
+		max-width: 512px;
+		padding: 0;
+		display: block;
+}/* Action Network Overrides */#can_embed_form {
+	/* hide petition title */
+	/* boost size of "sign this form" */
+}#can_embed_form h2{display:none !important}#can_embed_form h3{display:none !important}#can_embed_form h4{font-size:1.5rem !important;font-weight:bold !important}#can_embed_form input[type="submit"] {
+	background-color:rgba(104, 14, 143, 0.9) !important;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08) !important;
+	transition: all 0.2s ease !important
+}#can_embed_form input[type="submit"]:hover{background-color:rgba(104, 14, 143, 1) !important;transform:translateY(-1px) !important}#can_embed_form.can_float #form_col1 {
+}@media (min-width: 850px) {#can_embed_form.can_float #form_col1{float:none !important;width:100% !important}
+    }#can_embed_form.can_float #form_col2 {
+}@media (min-width: 850px) {#can_embed_form.can_float #form_col2{float:none !important;width:100% !important}
+    }
